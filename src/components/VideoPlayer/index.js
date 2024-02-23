@@ -22,7 +22,7 @@ class VideoPlayer extends Component {
             height="450px"
             playing={isPlaying}
           />
-          <button type="button" onClick={this.onPlayPause}>
+          <button type="button" onClick={this.onPlayPause} className="button">
             {btnText}
           </button>
         </div>
